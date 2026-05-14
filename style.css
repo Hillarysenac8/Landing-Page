@@ -4,7 +4,10 @@
 }
 
 body{
-	background-color: black;
+	background: linear-gradient(180deg, #050505, #0D0D0D);
+}
+body::before{
+	background: linear-gradient(135deg, #8B0000, #FF1E1E);
 }
 
 .btn{
