@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+}
+
+.btn{
+	background-color: rgb(170, 27, 27);
+	color: aliceblue;
+	border: none;
+	}
+.btn:hover{
+	background-color: aliceblue;
+	color: rgb(185, 6, 6);
+}
+
+	
