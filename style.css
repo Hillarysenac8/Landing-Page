@@ -4,18 +4,42 @@
 }
 
 body{
-	background: linear-gradient(180deg, #050505, #0D0D0D);
-}
-body::before{
-	background: linear-gradient(135deg, #8B0000, #FF1E1E);
+	min-height: 100vh;
+	margin: 0;
+	background: linear-gradient(180deg, #8B0000 0%, #000000 100%);
+	background-attachment: fixed;
+	color: #fff;
 }
 
-.btn{
-	background-color: rgb(170, 27, 27);
-	color: aliceblue;
-	border: none;
-	}
-.btn:hover{
-	background-color: aliceblue;
-	color: rgb(185, 6, 6);
+/* Make the Bootstrap navbar blend with page background */
+.navbar{
+	background: transparent !important;
+	border-radius: 0 !important;
+}
+.navbar .nav-link{
+	color: rgba(255,255,255,0.95) !important;
+}
+.navbar .nav-link:hover{
+	color: #ffd1d1 !important;
+}
+.navbar .navbar-brand,
+.navbar .navbar-brand img{
+	color: #fff !important;
+}
+.navbar-toggler{
+	border-color: rgba(255,255,255,0.15);
+}
+.navbar-toggler-icon{
+	filter: invert(1) brightness(2);
+}
+
+
+
+.separador {
+	border-top: 50px solid transparent;
+	margin: 20px 0;
+}
+
+.album-cover {
+  overflow: hidden; 
 }
